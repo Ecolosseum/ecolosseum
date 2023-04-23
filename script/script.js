@@ -16,8 +16,12 @@ var x = setInterval(function () {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+  function span(el) {
+    return `<span style='font-size: 6vw !important; background: transparent !important;'>${el} </span>`
+  }
+
   document.getElementById("count").innerHTML =
-    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    days + span("d") + hours + span("h") + minutes + span("m") + seconds + span("s");
 
   if (distance < 0) {
     clearInterval(x);

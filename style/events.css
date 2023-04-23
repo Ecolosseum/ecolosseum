@@ -11,7 +11,10 @@
 }
 
 body {
-  background: url("https://wallpaperaccess.com/full/3492868.gif");
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.8)
+  ), url("https://media.tenor.com/aR-pX0-tkw8AAAAC/tech.gif");
 }
 
 body::-webkit-scrollbar {
@@ -76,7 +79,7 @@ a.tab:hover {
 
 #count {
   color: rgb(213, 235, 236);
-  font-size: 5rem;
+  font-size: 7vw;
   text-shadow: 0 0 1rem #00ffea, 0 0 4rem rgb(0, 255, 255);
   background-color: transparent;
   position: relative;

@@ -201,7 +201,7 @@ const events = [
     banner:
       "https://img.freepik.com/photos-premium/icone-magasinage-ligne-telephone-intelligent-pour-concept-global_117856-2469.jpg",
     participants: 2,
-    url: "https://forms.gle/JkwCeNpg6ih23pAC9",
+    url: "https://forms.gle/G9zHTnNAQykX555L8",
   },
   {
     name: "ByteBeat",
