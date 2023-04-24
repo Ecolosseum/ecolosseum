@@ -92,7 +92,7 @@ const events = [
     description:
       "Dress up to show any technical advancement and state it's importance",
     banner:
-      "https://automationswitch.com/wp-content/uploads/2022/10/Beautiful-woman-with-purple-hair-in-futuristic-costume-over-dark-background.png",
+      "https://img.freepik.com/premium-photo/people-cyber-reality_622301-1398.jpg",
     participants: 1,
     url: "https://forms.gle/wxXG1XgjZ7ypA2Mk7",
   },
@@ -239,7 +239,7 @@ const events = [
     description:
       "Round table conference on the emerging Artificial Intelligence hot topics",
     banner:
-      "https://crestresearch.ac.uk/site/assets/files/3657/smart_home_3-1.640x360.jpg",
+      "https://j6p3d5c7.stackpathcdn.com/wp-content/uploads/2013/02/discussion-two-people.jpg",
     participants: 2,
     url: "https://forms.gle/hwAeLTGJhrCDm52G7",
   },
