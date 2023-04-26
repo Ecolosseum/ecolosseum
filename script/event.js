@@ -247,7 +247,7 @@ const events = [
     name: "Remage",
     eligibility: [7, 8],
     description: "Narrate a wonderful story using your developer and linguistic skills",
-    banner: "https://www.microsoft.com/en-us/research/uploads/prod/2019/08/MakeCode-Arcade_Site_08_2019_1400x788.png"
+    banner: "https://www.microsoft.com/en-us/research/uploads/prod/2019/08/MakeCode-Arcade_Site_08_2019_1400x788.png",
     participants: 2,
     url: "https://forms.gle/AVw4F39MpSuz6kwx7"
   }
