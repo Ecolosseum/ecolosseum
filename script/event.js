@@ -95,7 +95,7 @@ const events = [
       "https://img.freepik.com/premium-photo/people-cyber-reality_622301-1398.jpg",
     participants: 1,
     url: "https://forms.gle/wxXG1XgjZ7ypA2Mk7",
-  },
+  ,
   {
     name: "EcoTech",
     eligibility: [1, 2],
@@ -243,6 +243,14 @@ const events = [
     participants: 2,
     url: "https://forms.gle/hwAeLTGJhrCDm52G7",
   },
+  {
+    name: "Remage",
+    eligibility: [7, 8],
+    description: "Narrate a wonderful story using your developer and linguistic skills",
+    banner: "https://www.microsoft.com/en-us/research/uploads/prod/2019/08/MakeCode-Arcade_Site_08_2019_1400x788.png"
+    participants: 2,
+    url: "https://forms.gle/AVw4F39MpSuz6kwx7"
+  }
 ];
 
 events.forEach((event) => {
