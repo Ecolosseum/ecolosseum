@@ -95,7 +95,7 @@ const events = [
       "https://img.freepik.com/premium-photo/people-cyber-reality_622301-1398.jpg",
     participants: 1,
     url: "https://forms.gle/wxXG1XgjZ7ypA2Mk7",
-  ,
+  },
   {
     name: "EcoTech",
     eligibility: [1, 2],
