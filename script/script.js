@@ -1,3 +1,5 @@
+if (window.location.href == "https://ecolosseum.github.io/invite") { window.location.href = "https://www.canva.com/design/DAFg8pM4JIo/U2TVw87-xWJF6nBYVGQh1g/view?utm_content=DAFg8pM4JIo&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu" }
+
 var typed = new Typed("#typing", {
   strings: ["AGI", "Innovation", "Learning"],
   loop: true,
