@@ -7,7 +7,7 @@ var typed = new Typed("#typing", {
   backSpeed: 40,
 });
 
-var countDownDate = new Date("May 18, 2023 15:37:25").getTime();
+var countDownDate = new Date("May 12, 2023 00:00:00").getTime();
 
 var x = setInterval(function () {
   var now = new Date().getTime();
