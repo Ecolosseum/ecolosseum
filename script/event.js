@@ -68,7 +68,7 @@ const events = [
   },
   {
     name: "Cinematica",
-    eligibility: [9, 11],
+    eligibility: [9, 12],
     description:
       "Unleash your creativity! Join our film making competition and let your story shine",
     banner:
