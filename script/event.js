@@ -98,7 +98,7 @@ const events = [
   },
   {
     name: "EcoTech",
-    eligibility: [1, 2],
+    eligibility: [6, 8],
     description:
       "Generating best out of waste material from E-Waste to promote global SDGs",
     banner:
