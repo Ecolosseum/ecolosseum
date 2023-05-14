@@ -30,7 +30,7 @@ let flick = function() {
       clearInterval(counter)
       clearInterval(load)
       document.getElementsByClassName("main")[0].style.animation = "none"
-      document.getElementsByClassName("background")[0].innerHTML += "<span style='font-size: 10vw; color: #fff;'>LIVE NOW</span>"
+      document.getElementsByClassName("background")[0].innerHTML += "<span style='font-size: 10vw; color: #fff; background: none;'>LIVE NOW</span>"
       count.remove()
     }
     count.textContent = parseInt(count.textContent) - 1;
