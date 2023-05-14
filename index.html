@@ -31,6 +31,7 @@
     ></script>
   </head>
   <body>
+    <div class="main">
     <header
       class="navbar text-gray-400 bg-gray-1000 body-font"
       style="z-index: 20 !important"
@@ -76,8 +77,11 @@
       "
     >
       <center class="background">
-        <p id="sub">Live in ...</p>
-        <p id="count"></p>
+        <button class="debug" onclick="flick()">
+          Debug
+          <i class="fa-solid fa-play" style="background: none"></i>
+        </button>
+        <br>
       </center>
     </section>
 
@@ -246,5 +250,6 @@
       </div>
     </footer>
     <script src="script/script.js"></script>
+    </div>
   </body>
 </html>
