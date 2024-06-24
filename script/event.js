@@ -57,199 +57,151 @@ function addCard(name, eligibility, description, banner, participants, url) {
 
 const events = [
   {
-    name: "PresenPro",
-    eligibility: [4, 5],
+    name: "Tech Attire",
+    eligibility: [2, 3],
     description:
-      "Create innovative presentation about responsible consumption and production",
+      " Participants craft costumes inspired by e-waste, merging creativity with tech, judged on innovation and thematic relevance to electronic waste.",
     banner:
-      "https://geekflare.com/wp-content/uploads/2023/01/What-to-Look-for-in-An-Online-Presentation-Tool.png",
-    participants: 2,
-    url: "https://forms.gle/AdiGsS5hj4kYVXUt5",
+      "https://img.freepik.com/premium-photo/people-cyber-reality_622301-1398.jpg",
+    participants: 1,
+    url: "https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUOTVYTFQ0NTlDQVQyOVVZMTdYV1UyUE1BUy4u",
   },
   {
-    name: "Cinematica",
-    eligibility: [9, 12],
+    name: "DOCUDRAMA",
+    eligibility: [4, 5],
     description:
       "Unleash your creativity! Join our film making competition and let your story shine",
     banner:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlI9obEIzcjU0nDbg-r28asdztvKV5w95dSg&usqp=CAU",
     participants: 2,
-    url: "https://forms.gle/RSqpk7GrRbzv7qec6",
+    url: "https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRURFpGWDZHUlNaWksxTTA1OE42SkVEQlVBNS4u",
   },
   {
-    name: "Sketchup",
-    eligibility: [3],
+    name: "CodeCraftGaming",
+    eligibility: [6,8],
     description:
-      "Design digital artwork focussing on Good health and well being on MS Paint",
+      "Competitors develop arcade games envisioning sustainable cities, blending creativity with future-forward environmental solutions.",
     banner:
-      "https://img.freepik.com/premium-vector/one-continuous-line-drawing-heart-hands-symbol-care-save-health-simple-linear-style-icon-concept-volunteering-charity-thanksgiving-logo-doodle-vector-illustration_306763-1190.jpg",
-    participants: 1,
-    url: "https://forms.gle/NUhGbZHddtZQWDYEA",
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frockymountevents.com%2Fwp-content%2Fuploads%2F2019%2F11%2FPerson-playing-an-arcade-game.jpg&f=1&nofb=1&ipt=8b1500372364ff77de787dc2b43555a66c9ead59c5ec12b13cb07cff4eb15330&ipo=images",
+    participants: 2,
+    url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUMUJENThBMjJJRUNDVDRSMTZSNTJRUDg5VS4u",
   },
   {
-    name: "TechAttire",
-    eligibility: [1, 2],
+    name: "ANIMATION-X",
+    eligibility: [8, 9],
     description:
-      "Dress up to show any technical advancement and state it's importance",
+      "Get ready to animate the future of climate action! Participants create thrilling videos on climate change, exploring causes, impacts, and revolutionary solutions.",
     banner:
-      "https://img.freepik.com/premium-photo/people-cyber-reality_622301-1398.jpg",
-    participants: 1,
-    url: "https://forms.gle/wxXG1XgjZ7ypA2Mk7",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlI9obEIzcjU0nDbg-r28asdztvKV5w95dSg&usqp=CAU",
+    participants: 2,
+    url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUMUJENThBMjJJRUNDVDRSMTZSNTJRUDg5VS4u",
   },
   {
-    name: "EcoTech",
+    name: "BOT-BRAWL",
     eligibility: [6, 8],
     description:
-      "Generating best out of waste material from E-Waste to promote global SDGs",
+      "Seize the reins in electrifying robot showdowns, strategizing through each round to dominate and secure a thrilling path to the high-stakes final battles.",
     banner:
-      "https://media.istockphoto.com/id/1032912050/photo/e-waste-heap-from-discarded-laptop-parts.jpg?s=612x612&w=0&k=20&c=0GhFIqXKK1bRzdyMugLkB5Dj7spnwmhgVhRJEwBgoO8=",
-    participants: "1-2",
-    url: "https://forms.gle/6JCizt1E75MrRkuP6",
+      "https://t3.ftcdn.net/jpg/01/80/97/92/360_F_180979216_dsMX0jqo0MrflzwSs86rQuIrxVHbbPW5.jpg",
+    participants: "3",
+    url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUN1E4QlhFNTZUQ1k1T05TUVYzUTA0TlVOSy4u",
   },
   {
-    name: "CreateX",
-    eligibility: [4, 5],
+    name: "BLENDRUSH",
+    eligibility: [9, 10],
     description:
-      "Use your spatial skills to write a word document on SDG-7 in a presentable manner",
+      "Students embark on an exhilarating hunt across Google and YouTube for captivating video clips, showcasing creativity and storytelling prowess in a thrilling competition.",
     banner:
       "https://www.shutterstock.com/image-vector/sustainable-energy-word-cloud-260nw-53764555.jpg",
     participants: 1,
-    url: "https://forms.gle/beQSmenEy52Wieg79",
+    url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUNjQxS1pZWVdXSzJTRDJYQlZEM1FGQzI3QS4u",
   },
   {
-    name: "FusionFX",
+    name: "3DesignDynamic",
+    eligibility: [9, 10],
+    description:
+      "Pioneering the future of space fashion, participants create cutting-edge wearables blending style and functionality for life among the stars!",
+    banner:
+      "https://cdn.dribbble.com/users/4823084/screenshots/18863071/media/78f0367c4d388ee5e37524cee27cf1ee.png?compress=1&resize=400x300",
+    participants: 2,
+    url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUN0xDNUpJRTExTUNTTUVQQzZOTVRZR1lMNC4u",
+  },
+  {
+    name: "DigitalDreamscapes",
     eligibility: [9, 12],
     description:
       "Get creative and showcase your skills in our thrilling Photoshop competition",
     banner: "https://i.ytimg.com/vi/l7r4EdSGrbk/maxresdefault.jpg",
     participants: 2,
-    url: "https://forms.gle/9ERz4q4aAQa5cfhx9",
-  },
-  {
-    name: "Snapshot",
-    eligibility: [9, 12],
-    description:
-      "Capture shots using your naturalistic skills combined with photography",
-    banner:
-      "https://img.freepik.com/premium-photo/having-skills-snapshot-childhood-teen-girl-taking-photo-kid-use-digital-camera-child-photographer-with-camera-horizontal-poster-banner-with-copy-space_545934-38790.jpg",
-    participants: 1,
-    url: "https://forms.gle/ScSDcLcDfsfBSWmQ7",
-  },
-  {
-    name: "PlayOffs",
-    eligibility: [1, 12],
-    description:
-      "Level up your skills and dominate the competition in our thrilling gaming showdown",
-    banner: "https://i.ytimg.com/vi/Zfsg3oiPXGc/maxresdefault.jpg",
-    participants: 5,
-    url: "https://forms.gle/6Akwnpn8JtV4iHxs8",
+    url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUODNROUkxWEZPQ0dRVjdOMUtTWEFYREdOTS4u",
   },
   {
     name: "App-A-Thon",
     eligibility: [11, 12],
     description:
-      "Building AI based application to address SDG: Good Health and Well Being",
+      "Students will build an app to make every citizen in India adopt an environment conscious lifestyle.",
     banner: "https://i.imgur.com/nuXeEj9.jpg",
     participants: 2,
-    url: "https://forms.gle/3rmCYnnJeXfiz25Z8",
-  },
+    url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUNU1FTTlQTUNDMkRRVjgwM0tGRjQ1VVNQMS4u",
+  },  
   {
-    name: "ChatterBox",
-    eligibility: [11, 12],
-    description:
-      "Write a chatbot to compete in this Artificial Intelligence controlled world",
-    banner:
-      "https://i0.wp.com/ohmybot.net/wp-content/uploads/2020/03/chatbot-banner.png?ssl=1",
-    participants: 2,
-    url: "https://forms.gle/dPe2CkDbRZSuUro26",
-  },
-  {
-    name: "3DesignDynamic",
+    name: "Perspective",
     eligibility: [9, 12],
     description:
-      "Model and visualise your idealistic worlds by putting your creative minds to test",
-    banner:
-      "https://cdn.dribbble.com/users/4823084/screenshots/18863071/media/78f0367c4d388ee5e37524cee27cf1ee.png?compress=1&resize=400x300",
+      "Innovating solutions for any community problem using microcontroller and AI tool",
+    banner: "https://www.electronicaembajadores.com/datos/fotos/articulos/grandes/lc/lca1/lca1k81.jpg",
     participants: 2,
-    url: "https://forms.gle/t5G6fY4ZRj2rfmvRA",
+    url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUNU1FTTlQTUNDMkRRVjgwM0tGRjQ1VVNQMS4u",
   },
   {
-    name: "PromptToPrototype",
-    eligibility: [8, 12],
+    name: "ELEV8PITCH",
+    eligibility: [9, 12],
     description:
-      "Rule the AGI ran world by creating prompts which generate the most precise outputs",
+      "Students ignite innovation with tech-driven business pitches aligned to Sustainable Development Goals (SDGs), shaping a sustainable future with global impact.",
     banner:
-      "https://www.marktechpost.com/wp-content/uploads/2023/02/Newsletter-Banner-Thumbnail-Beehiiv-4.jpg",
+      "https://i0.wp.com/ohmybot.net/wp-content/uploads/2020/03/chatbot-banner.png?ssl=1",
+    participants: 4,
+    url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUMEYwRkNGQlZIS09RU0k4R0w0VlAxWkhDMS4u",
+  },
+  {
+    name: "Decode to Learn: Virtual Escape Room Challenge",
+    eligibility: [9, 12],
+    description:
+      " Students engage their intellect in virtual escape rooms, solving puzzles and unraveling mysteries to break free within a challenging and immersive environment.",
+    banner:
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd36tnp772eyphs.cloudfront.net%2Fblogs%2F1%2F2018%2F08%2FEscape-room.jpg&f=1&nofb=1&ipt=c7750d7e9aa0efa5aa1e358aa6d50dd57e402b1a0db1a6a07fc7477e91f0b6c1&ipo=images",
+    participants: 4,
+    url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUN0dRTVIySkY2MkRCRFFBWU5CMlc5MVk3Ry4u",
+  },
+  {
+    name: "TECHTRIVIA",
+    eligibility: [9, 12],
+    description:
+      "Students test their knowledge and problem-solving skills with a series of intense technology-related questions, aiming to prove their mastery in a competitive setting.",
+    banner:
+      "https://miro.medium.com/v2/resize:fit:3720/1*_PtTP7XVXZxPStTVMmvKRg.jpeg",
     participants: 1,
     url: "https://forms.gle/HUWwtThzGS5XoxhB6",
   },
-  {
-    name: "CodeCon",
-    eligibility: [11, 12],
+   {
+    name: "Playoffs",
+    eligibility: [6, 12],
     description:
-      "Test your brainstorming skills to solve maths problems with the help of Python",
+      "Show off your flow of ideas via your moves and let the world recognise your talent",
     banner:
-      "https://img.freepik.com/premium-vector/web-development-coding-programming-futuristic-banner-computer-code-laptop_3482-5582.jpg",
-    participants: 2,
-    url: "https://forms.gle/JkwCeNpg6ih23pAC9",
-  },
-  {
-    name: "BizTechX",
-    eligibility: [11, 12],
-    description:
-      "AI business event to present original startup ideas using considering all necessary asepcts",
-    banner:
-      "https://img.freepik.com/photos-premium/icone-magasinage-ligne-telephone-intelligent-pour-concept-global_117856-2469.jpg",
-    participants: 2,
-    url: "https://forms.gle/G9zHTnNAQykX555L8",
+      "https://i.ytimg.com/vi/Zfsg3oiPXGc/maxresdefault.jpg",
+    participants: "8-10",
+    url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUMUk3T0VVSTVMN05FWkJGVFowM0dJR01VSS4u",
   },
   {
     name: "ByteBeat",
-    eligibility: [6, 11],
+    eligibility: [8, 12],
     description:
       "Show off your flow of ideas via your moves and let the world recognise your talent",
     banner:
       "https://www.noblemotiondance.com/wp-content/uploads/2022/01/NobleMotion-Dance-MAN-OVERBOARD-Photographer-Lynn-Lane-WEB-4-600x400.jpg",
-    participants: "10-12",
-    url: "https://forms.gle/AFK9MYVZ75ebQh5Y9",
-  },
-  {
-    name: "BotBrawl",
-    eligibility: [7, 9],
-    description:
-      "Get brawling by building bots to cross hurdles in the least possible time",
-    banner:
-      "https://t3.ftcdn.net/jpg/01/80/97/92/360_F_180979216_dsMX0jqo0MrflzwSs86rQuIrxVHbbPW5.jpg",
-    participants: 3,
-    url: "https://forms.gle/1H7FEzvaRSUeB8DAA",
-  },
-  {
-    name: "Perspective",
-    eligibility: [9, 11],
-    description:
-      "Innovating solutions for patients suffering with common diseases using Arduino",
-    banner:
-      "https://www.electronicaembajadores.com/datos/fotos/articulos/grandes/lc/lca1/lca1k81.jpg",
-    participants: 2,
-    url: "https://forms.gle/iHCY2LagzUjy3deY7",
-  },
-  {
-    name: "VoiceItOut",
-    eligibility: [12],
-    description:
-      "Round table conference on the emerging Artificial Intelligence hot topics",
-    banner:
-      "https://j6p3d5c7.stackpathcdn.com/wp-content/uploads/2013/02/discussion-two-people.jpg",
-    participants: 2,
-    url: "https://forms.gle/hwAeLTGJhrCDm52G7",
-  },
-  {
-    name: "Remage",
-    eligibility: [7, 8],
-    description: "Narrate a wonderful story using your developer and linguistic skills",
-    banner: "https://www.microsoft.com/en-us/research/uploads/prod/2019/08/MakeCode-Arcade_Site_08_2019_1400x788.png",
-    participants: 2,
-    url: "https://forms.gle/AVw4F39MpSuz6kwx7"
+    participants: "8-10",
+    url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAHf2GwRUOTI3RUowWVRGVk44TllZS1pVU0MwR1FFMi4u",
   }
 ];
 
